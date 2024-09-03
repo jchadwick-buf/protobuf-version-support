@@ -1,3 +1,0 @@
-proto2023/test_proto2023.proto: is an editions file, but code generator --php_out hasn't been updated to support editions yet.  Please ask the owner of this code generator to add support or switch back to proto2/proto3.
-
-See https://protobuf.dev/editions/overview/ for more information.

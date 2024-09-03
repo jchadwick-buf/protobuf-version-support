@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 PLUGINS="cpp csharp dart go java js kotlin objc php pyi python ruby"
-PROTOS="proto2 proto3 proto2023"
+PROTOS="proto2 proto3 edition2023"
 
 rm -fr gen
 rm -fr errors

@@ -9,17 +9,17 @@ work with which protoc plugins.
 - **protoc-gen-go**: `protoc-gen-go v1.34.2`
 
 ## Support Matrix
-| | proto2 | proto3 | proto2023 |
+| | proto2 | proto3 | edition2023 |
 | --- | --- | --- | --- |
 | cpp |  :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | csharp |  :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| dart |  :white_check_mark: | :white_check_mark: | [:x:](./errors/dart-proto2023.log) |
+| dart |  :white_check_mark: | :white_check_mark: | [:x:](./errors/dart-edition2023.log) |
 | go |  :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | java |  :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| js |  :white_check_mark: | :white_check_mark: | [:x:](./errors/js-proto2023.log) |
+| js |  :white_check_mark: | :white_check_mark: | [:x:](./errors/js-edition2023.log) |
 | kotlin |  :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | objc |  :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| php |  [:x:](./errors/php-proto2.log) | :white_check_mark: | [:x:](./errors/php-proto2023.log) |
+| php |  [:x:](./errors/php-proto2.log) | :white_check_mark: | [:x:](./errors/php-edition2023.log) |
 | pyi |  :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | python |  :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | ruby |  :white_check_mark: | :white_check_mark: | :white_check_mark: |
