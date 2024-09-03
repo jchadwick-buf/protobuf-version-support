@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package test.proto3;
+
+option go_package = "buf.build/gen/go/jchadwick-buf/test_proto3/protocolbuffers/go/buf/test/proto3";
+option java_multiple_files = true;
+option java_outer_classname = "TestProto3";
+option java_package = "test.proto3";
+
+message Proto3Message {
+  string implicit_field = 1;
+  optional string explicit_field = 2;
+}

@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+package test.proto2;
+
+option go_package = "buf.build/gen/go/jchadwick-buf/test_proto2/protocolbuffers/go/buf/test/proto2";
+option java_multiple_files = true;
+option java_outer_classname = "TestProto2";
+option java_package = "test.proto2";
+
+message Proto2Message {
+  required string required_field = 1;
+  optional string optional_field = 2;
+  extensions 100 to max;
+}

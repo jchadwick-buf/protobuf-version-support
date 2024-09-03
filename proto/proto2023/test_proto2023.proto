@@ -1,0 +1,15 @@
+edition = "2023";
+
+package test.proto2023;
+
+option go_package = "buf.build/gen/go/jchadwick-buf/test_proto3/protocolbuffers/go/buf/test/proto2023";
+option java_multiple_files = true;
+option java_outer_classname = "TestProto2023";
+option java_package = "test.proto2023";
+
+message Proto2023Message {
+  string required_field = 1 [ features.field_presence = LEGACY_REQUIRED ];
+  string implicit_field = 2 [ features.field_presence = IMPLICIT ];
+  string explicit_field = 3 [ features.field_presence = EXPLICIT ];
+  extensions 100 to max;
+}

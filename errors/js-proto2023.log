@@ -1,0 +1,3 @@
+[libprotobuf ERROR external/com_google_protobuf/src/google/protobuf/descriptor.cc:4199] Invalid proto descriptor for file "proto2023/test_proto2023.proto":
+[libprotobuf ERROR external/com_google_protobuf/src/google/protobuf/descriptor.cc:4202]   proto2023/test_proto2023.proto: Unrecognized syntax: editions
+--js_out: protoc-gen-js: Plugin failed with status code 1.
